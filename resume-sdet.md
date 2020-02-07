@@ -1,0 +1,88 @@
+% !TEX program = xelatex
+
+\documentclass{resume}
+%\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{Lucas Xu}
+
+\basicInfo{
+  \email{sijialucas@gmail.com} \textperiodcentered\ 
+  \phone{416-832-2812} \textperiodcentered\ 
+  \linkedin[lucas-x]{https://www.linkedin.com/in/lucas-x/} \textperiodcentered\ 
+  \github[Lucas Xu]{https://github.com/desperatecat}
+  }
+
+\section{Summary}
+\datedline{Permanent Resident of Canada, 2+ years software industrial experience, 1 year web application development, looking for full-stack/frontend/backend developer position.}{}
+
+
+
+\section{Skills}
+\begin{itemize}[parsep=0.5ex]
+  \item Frontend: HTML5, CSS3, Sass, \textbf{JavaScript(ES6)}, Typescript, Bootstrap4, \textbf{React}, \textbf{Redux}, Vue.js
+  \item Backend: \textbf{Java}, Spring MVC, \textbf{Spring Boot}, Python, Node.js, Express.js, JPA, Hibernate, MyBatis, Redis, Shiro, \textbf{MySQL}, PostgreSQL, MongoDB, RESTful API
+  \item Practice: Docker, Kubernetes, Azure, AWS, GCP, Jenkins, \textbf{Git}, Maven, Linux, Jira, \textbf{Agile}
+  \item Test: Junit, Selenium, Jest, \textbf{Postman}, SoapUI, JMeter
+\end{itemize}
+
+
+
+\section{Projects}{Portfolio Website: \emph{https://lucasxu.co}}
+\datedsubsection{\textbf{Dev Connector Social Network Web}}{}
+\datedline{Developed a MERN(React, Redux, Node.js, Express.js, MongoDB) stack project which includes React frontend components, JWT authentication, and extensive backend Express API. User can sign up/in, create profile with experience and education info, also can post and comment.}{}
+\datedsubsection{\textbf{Project Tasks Management Tool}}{}{}
+\datedline{Built a tool with React, Redux, Spring Boot, JPA and MySQL. It allow user to create project tasks, view and delete tasks. Moreover, user can update these tasks to different stage, i.e., TODO, IN PROGRESS, DONE.}{}
+\datedsubsection{\textbf{Myblog Personal Blog}}{}
+\datedline{Designed a personal blog system with Bootstrap, Spring Boot, MyBatis and Druid, which is Self-adaptive/Single-page/RESTful/Easy-to-manage\&release.}{}
+\datedsubsection{\textbf{Online Shopping Management Portal}}{}
+\datedline{Cooperated with a frontend developer to create a portal based on Vue, Spring Boot, Hibernate and MySQL, and was enhanced with middleware like Redis, Nginx and Shiro. The backend system includes commodity, order, category, customer, customer service management and payment platform. The frontend pages include personal center, shopping cart, product details page, submit order page, etc.}{}
+
+
+\section{Experience}
+\datedsubsection{\textbf{Software Developer in Test}}{07.2019 -- Present}
+\role{Rubikloud Technologies (https://rubikloud.com/)}{Toronto, ON}
+\begin{itemize}
+  \item Responsible for telemetry and test infrastructure, maintain code base to continuously run harnesses load tests and use-case tests for different modules with fully asynchronous Java.
+  \item Design and develop internal monitoring/testing tools for promotion/customer lifecycle related SaaS products, such as QA benchmarking dashboard, stream data processing system for price/margin forecast, etc.
+  \item Implement company-wide GCP QA environments migration leveraging Docker/Kubernete Ctl, build and improve a data engine platform for testing and validation upon CI pipeline.
+  \item Collaborate with Technical Product Manger, Machine Learning Engineers, Application Developers and other QAs to standardize and enforce QA process and test coverage.
+\end{itemize}
+
+\datedsubsection{\textbf{Quality Assurance Engineer, Automation}}{06.2017 -- 04.2019}
+\role{Pala Interactive (https://www.palainteractive.com/)}{Toronto, ON}
+\begin{itemize}
+  \item Participated in business requirements gathering, user workflow identification and story estimiation meetings within an Agile Scrum environment, created test strategies/plans/cases.
+  \item Built and refactored UI/API Automation Frameworks based on Java and Selenium Webdriver, converted 70\% manual testing cases to automation scripts, maintained script of cross-browser compatibilities.
+  \item Executed test scripts through managing jobs with Jenkins, performed web service/gateway testing by Postman tools and executed performance load testing by JMeter.
+  \item Conducted End to end testing (UI to DB) including functional, integration, regression, sanity/smoke testing. 
+  \item Supported production maintenance, conducted periodic bug bashes of 30 participants, resulting in the discovery of, on average, 20\% of total bugs found. Troubleshootted and logged defects in Jira, then verified fixes.
+\end{itemize}
+
+
+% Reference Test
+%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+%An xxx optimized for xxx\cite{verma2015large}
+%\begin{itemize}
+%  \item main contribution
+%\end{itemize}
+
+\section{Education}
+\datedsubsection{\textbf{Technology University of Eindhoven (TU/e)}, Eindhoven, The Netherlands}{}
+\textit{Short-term Study} in Computer Systems
+\datedsubsection{\textbf{University of Electronic Science \& Technology of China (UESTC)}, Chengdu, China}{}
+\textit{B.Eng} in Computer Engineering, 3.89/4
+
+%\section{Miscellaneous}
+%\begin{itemize}[parsep=0.5ex]
+%  \item Languages: English - Fluent, Mandarin - Native speaker
+%\end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
